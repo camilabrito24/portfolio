@@ -49,8 +49,82 @@ body{
     background-color: #FCFDFF;
     border: solid 1px #343131;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .cabecalho-nav-btnDarkMode:hover{
     background-color: #aaa9a9;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 5em 20em;
+    height: 66vh;
+}
+
+.container-texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5em;
+    color: #343131;
+    gap: 1em;
+}
+
+.container-texto-titulo{
+    color: #6E26B7;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container-texto-paragrafo-destaque{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-texto-paragrafo{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 70%;
+    width: 480px;
+}
+
+.container-texto-btn{
+    margin-top: 2em;
+    width: 163px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6E26B7;
+    color: #FCFDFF;
+    cursor: pointer;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.container-texto-btn:hover{
+    background-color: #341159;
+}
+
+.container-imagem{
+    width: 50%;
+}
+
+.rodape{
+    background-color: #6E26B7;
+    height: 8vh;
+    text-align: center;
+    color: #FCFDFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.rodape-paragrafo-destaque{
+    padding-top: 1em;
+}
+
+.rodape-paragrafo{
+    padding-top: 1em;
+    opacity: 50%;
 }
