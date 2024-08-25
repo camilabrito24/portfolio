@@ -5,7 +5,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>Portfolio | Home</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
@@ -15,8 +15,8 @@
                 CAMILA BRITO
             </p>
             <ul class="cabecalho-nav-menu">
-                <li class="cabecalho-nav-menu-item"><a href=".">Home</a></li>
-                <li class="cabecalho-nav-menu-item"><a href=".">Projetos</a></li>
+                <li class="cabecalho-nav-menu-item"><a href="./index.php">Home</a></li>
+                <li class="cabecalho-nav-menu-item"><a href="./Projetos.php">Projetos</a></li>
                 <li class="cabecalho-nav-menu-item"><a href=".">Sobre Mim</a></li>
                 <li class="cabecalho-nav-menu-item"><a href=".">Contato</a></li>
             </ul>
