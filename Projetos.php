@@ -22,5 +22,17 @@
         </button>
     </nav>
 </header>
+<main class="container-projetos-principal">
+    <section class="container-texto">
+        <h1 class="container-texto-titulo">MEUS PROJETOS</h1>
+        <p class="container-texto-paragrafo-destaque">Veja abaixo os meus projetos através do site ou repositório criados até o momento.</p>
+    </section>
+    <section class="container-projetos">
+        <section class="container-projetos-card">
+            <img>
+        </section>
+    </section>
+</main>
+
 </body>
 </html>
