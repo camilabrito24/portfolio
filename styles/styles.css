@@ -111,6 +111,31 @@ body{
     width: 50%;
 }
 
+.container-projetos{
+    margin: 5em;
+}
+
+.container-projetos-card{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-projetos-card-img{
+    width: 350px;
+}
+
+.container-projetos-card-btn-github{
+    background-color: #6E26B7;
+    padding: 0.3em;
+    border: none;
+    border-radius: 8px;
+}
+
+.container-projetos-card-btn-github img{
+    width: 20px;
+}
+
 .rodape{
     background-color: #6E26B7;
     height: 8vh;

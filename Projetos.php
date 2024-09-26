@@ -29,7 +29,14 @@
     </section>
     <section class="container-projetos">
         <section class="container-projetos-card">
-            <img>
+            <img src="src/projeto1.png" class="container-projetos-card-img">
+            <div class="container-projetos-btn">
+                <a href="" class="container-projetos-btn-site">Visite o site</a>
+
+                <button class="container-projetos-card-btn-github">
+                    <img src="src/github.png">
+                </button>
+            </div>
         </section>
     </section>
 </main>
