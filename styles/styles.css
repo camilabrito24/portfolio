@@ -113,6 +113,9 @@ body{
 
 .container-projetos{
     margin: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .container-projetos-card{
@@ -130,10 +133,21 @@ body{
     padding: 0.3em;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+    color: #FCFDFF;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    width: 100px;
+    align-items: center;
+}
+
+.container-projetos-card-btn-github:hover{
+    background-color: #341159;
 }
 
 .container-projetos-card-btn-github img{
     width: 20px;
+    padding-right: 0.5em;
 }
 
 .rodape{
@@ -152,4 +166,29 @@ body{
 .rodape-paragrafo{
     padding-top: 1em;
     opacity: 50%;
+}
+
+.container-projetos-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 1.5em 0 1.5em;
+    font-weight: 700;
+}
+
+.container-projetos-btn-site{
+    text-decoration: none;
+}
+
+.container-projetos-btn-site-git{
+    text-decoration: none;
+    color: #FCFDFF;
+}
+
+.container-projetos-btn-site:hover{
+    color: #6E26B7;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 900;
 }
