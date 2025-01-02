@@ -44,7 +44,7 @@
         <section class="container-projetos-card">
             <img src="src/projeto2.png" class="container-projetos-card-img">
             <div class="container-projetos-btn">
-                <a href="https://mochiladeviagem-gray.vercel.app/" target="_blank class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
+                <a href="https://mochiladeviagem-gray.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
 
                 <button class="container-projetos-card-btn-github">
                     <a href="https://github.com/camilabrito24/mochiladeviagem" target="_blank" class="container-projetos-btn-site-git">
@@ -57,7 +57,7 @@
         <section class="container-projetos-card">
             <img src="src/projeto3.png" class="container-projetos-card-img">
             <div class="container-projetos-btn">
-                <a href="https://doacoes-site.vercel.app/" target="_blank class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
+                <a href="https://doacoes-site.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
 
                 <button class="container-projetos-card-btn-github">
                     <a href="https://github.com/camilabrito24/doacoes-site" target="_blank" class="container-projetos-btn-site-git">
@@ -70,7 +70,7 @@
         <section class="container-projetos-card">
             <img src="src/projeto4.png" class="container-projetos-card-img">
             <div class="container-projetos-btn">
-                <a href="https://aluramidi-kohl.vercel.app/" target="_blank class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
+                <a href="https://aluramidi-kohl.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
 
                 <button class="container-projetos-card-btn-github">
                     <a href="https://github.com/camilabrito24/aluramidi" target="_blank" class="container-projetos-btn-site-git">
@@ -80,6 +80,10 @@
                 </button>
             </div>
         </section>
+    </section>
+    <section class="container_btn_proxima_pagina">
+        <button class="btn_proxima_pagina">PÁGINA ANTERIOR</button>
+        <button class="btn_proxima_pagina">PRÓXIMA PÁGINA</button>
     </section>
 </main>
 

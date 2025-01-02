@@ -192,3 +192,24 @@ span{
     font-size: 20px;
     font-weight: 900;
 }
+
+.container_btn_proxima_pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5em 15em;
+}
+
+.btn_proxima_pagina{
+    background-color: #6E26B7;
+    color: #FCFDFF;
+    padding: 1em;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn_proxima_pagina:hover{
+    background-color: #341159;
+}
