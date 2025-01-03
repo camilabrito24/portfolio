@@ -15,9 +15,9 @@
                 CAMILA BRITO
             </p>
             <ul class="cabecalho-nav-menu">
-                <li class="cabecalho-nav-menu-item"><a href="./index.php" style="color: #6E26B7">Home</a></li>
+                <li class="cabecalho-nav-menu-item"><a href="./index.php">Home</a></li>
                 <li class="cabecalho-nav-menu-item"><a href="./Projetos.php">Projetos</a></li>
-                <li class="cabecalho-nav-menu-item"><a href="./sobre_mim.php">Sobre Mim</a></li>
+                <li class="cabecalho-nav-menu-item"><a href="./sobre_mim.php" style="color: #6E26B7">Sobre Mim</a></li>
                 <li class="cabecalho-nav-menu-item"><a href=".">Contato</a></li>
             </ul>
             <button class="cabecalho-nav-btnDarkMode">
@@ -26,17 +26,19 @@
         </nav>
     </header>
     <main class="container">
-        <section class="container-texto">
-            <h1 class="container-texto-titulo">Olá, eu sou a Camila</h1>
-            <p class="container-texto-paragrafo-destaque">Designer e Desenvolvedora Frontend / Backend.</p>
-            <p class="container-texto-paragrafo">Espero que através deste portfólio possa vir a me conhecer e conhecer o meu trabalho.
-                Caso queira entrar em contato comigo para maiores informações basta clicar no botão logo abaixo:</p>
-            <a href="." class="container-texto-btn">
-                CONTATE-ME
-            </a>
+        <section class="container_btn_controle">
+            <button class="btn_controle">
+                EXPERIÊNCIA PROFISSIONAL
+            </button>
+            <button class="btn_controle">
+                FORMAÇÃO ACADEMICA
+            </button>
+            <button class="btn_controle">
+                HABILIDADES
+            </button>
         </section>
-        <section class="container-imagem">
-            <img src="src/BANNER.png">
+        <section class="container_dados">
+
         </section>
     </main>
     <footer class="rodape">

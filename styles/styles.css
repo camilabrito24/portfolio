@@ -213,3 +213,25 @@ span{
 .btn_proxima_pagina:hover{
     background-color: #341159;
 }
+
+.container_btn_controle{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    gap: 5em;
+    align-items: center;
+}
+
+.btn_controle{
+    background-color: #6E26B7;
+    color: #FCFDFF;
+    padding: 1em;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn_controle:hover{
+    background-color: #341159;
+}
