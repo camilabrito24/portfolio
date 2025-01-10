@@ -86,6 +86,13 @@
         <button class="btn_proxima_pagina">PRÓXIMA PÁGINA</button>
     </section>
 </main>
-
+<footer class="rodape">
+    <p class="rodape-paragrafo-destaque">
+        © Copyright 2024
+    </p>
+    <p class="rodape-paragrafo">
+        Feito por Camila Brito
+    </p>
+</footer>
 </body>
 </html>

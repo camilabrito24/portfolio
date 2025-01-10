@@ -150,6 +150,11 @@ body{
     padding-right: 0.5em;
 }
 
+.container-projetos-principal{
+    margin: 5em;
+    height: 66vh;
+}
+
 .rodape{
     background-color: #6E26B7;
     height: 8vh;
