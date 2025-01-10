@@ -25,7 +25,7 @@
             </button>
         </nav>
     </header>
-    <main class="container">
+    <main class="container_controle">
         <section class="container_btn_controle">
             <button class="btn_controle">
                 EXPERIÊNCIA PROFISSIONAL
