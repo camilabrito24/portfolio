@@ -224,12 +224,10 @@ span{
     flex-direction: row;
     justify-content: space-around;
     height: 10%;
-    gap: 0.5em;
-    margin: 10em 50em;
+    margin: 4.6em 60em;
 }
 
 .container_controle{
-    height: 66vh;
 }
 
 .btn_controle{
@@ -240,9 +238,41 @@ span{
     border: 1px solid #6E26B7;
     cursor: pointer;
     font-weight: 700;
+    width: 159px;
+    height: 59px;
 }
 
 .btn_controle:hover{
     background-color: #6E26B7;
     color: #FCFDFF;
+}
+
+.container-dados{
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+    gap: 1em;
+}
+
+.container-dados-titulo{
+    color: #6E26B7;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-dados-paragrafo-destaque{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-dados-paragrafo{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 70%;
+    width: 480px;
+}
+
+.container-experiencia-profissional{
+    display: flex;
+    height: 61vh;
 }
