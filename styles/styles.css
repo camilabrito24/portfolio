@@ -276,3 +276,56 @@ span{
     display: flex;
     height: 61vh;
 }
+
+.container-contato{
+    display: flex;
+    flex-direction: column;
+    margin: 5em 20em;
+    height: 66vh;
+}
+
+.container-formulario{
+    margin: 1em 5em;
+}
+
+.container-formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container-formulario label{
+    color: #6E26B7;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-formulario input{
+    border: 1px solid #6E26B7;
+    padding: 0.5em;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.container-formulario textarea{
+    border: 1px solid #6E26B7;
+    padding: 0.5em;
+    border-radius: 8px;
+    width: 60%;
+    height: 100px;
+}
+
+#btn-contato{
+    background-color: #6E26B7;
+    color: #FCFDFF;
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 61%;
+    border-radius: 8px;
+}
+
+#btn-contato:hover{
+    background-color: #341159;
+}

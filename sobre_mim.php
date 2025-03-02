@@ -5,7 +5,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio | Home</title>
+    <title>Portfolio | Sobre Mim</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
                 <li class="cabecalho-nav-menu-item"><a href="./index.php">Home</a></li>
                 <li class="cabecalho-nav-menu-item"><a href="./Projetos.php">Projetos</a></li>
                 <li class="cabecalho-nav-menu-item"><a href="./sobre_mim.php" style="color: #6E26B7">Sobre Mim</a></li>
-                <li class="cabecalho-nav-menu-item"><a href=".">Contato</a></li>
+                <li class="cabecalho-nav-menu-item"><a href="./contato.php">Contato</a></li>
             </ul>
             <button class="cabecalho-nav-btnDarkMode">
                 <img src="./src/btnDarkMode.png">
