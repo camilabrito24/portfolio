@@ -8,7 +8,7 @@
     <title>Portfolio | Home</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
-<body>
+<body id="corpo-pagina">
     <header class="cabecalho">
         <nav class="cabecalho-nav">
             <p class="cabecalho-nav-paragrafo">
@@ -20,7 +20,7 @@
                 <li class="cabecalho-nav-menu-item"><a href="./sobre_mim.php">Sobre Mim</a></li>
                 <li class="cabecalho-nav-menu-item"><a href="./contato.php">Contato</a></li>
             </ul>
-            <button class="cabecalho-nav-btnDarkMode">
+            <button class="cabecalho-nav-btnDarkMode" id="btn-DarkMode">
                 <img src="./src/btnDarkMode.png">
             </button>
         </nav>
@@ -47,5 +47,6 @@
             Feito por Camila Brito
         </p>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
