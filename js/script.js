@@ -1,13 +1,16 @@
 const btnDarkMode =  document.querySelector("#btn-DarkMode");
 const pagina =  document.querySelector("#corpo-pagina");
-const menuItem = document.querySelectorAll("#menu-item");
-const listaMenuItem = array.from(menuItem);
+const menuItem = document.querySelectorAll(".menu-item");
+const texto = document.querySelector(".container-texto-paragrafo");
+const destaque = document.querySelector(".container-texto-paragrafo-destaque");
 var modoEscuro = false;
 btnDarkMode.addEventListener('click', ()=>{
     var elemento = {};
     elemento.btndarkmode = btnDarkMode;
     elemento.body = pagina;
-    elemento.listaMenu = listaMenuItem;
+    elemento.listaMenu = menuItem;
+    elemento.texto = texto;
+    elemento.destaque = destaque;
 
     if(modoEscuro == false){
         alteraModoEscuro(elemento);
@@ -22,6 +25,8 @@ function alteraModoEscuro(elemento){
     elemento.btndarkmode.style.backgroundColor = '#1E1C1CFF';
     elemento.btndarkmode.style.borderColor = '#FCFDFF';
     elemento.body.style.backgroundColor = '#1E1C1CFF';
+    elemento.texto.style.color = '#aaa9a9';
+    elemento.destaque.style.color = '#aaa9a9';
 
     elemento.listaMenu.forEach(elemento => {
         elemento.style.color = '#aaa9a9';
@@ -32,8 +37,10 @@ function alteraModoClaro(elemento){
     elemento.btndarkmode.style.backgroundColor = '#FCFDFF';
     elemento.btndarkmode.style.borderColor = '#343131';
     elemento.body.style.backgroundColor = '#FCFDFF';
+    elemento.texto.style.color = '#343131';
+    elemento.destaque.style.color = '#343131';
 
     elemento.listaMenu.forEach(elemento => {
-        elemento.style.color = '#aaa9a9';
+        elemento.style.color = '#343131';
     })
 }

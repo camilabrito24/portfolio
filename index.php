@@ -16,9 +16,9 @@
             </p>
             <ul class="cabecalho-nav-menu">
                 <li class="cabecalho-nav-menu-item"><a href="./index.php" style="color: #6E26B7">Home</a></li>
-                <li class="cabecalho-nav-menu-item"><a href="./Projetos.php" id="menu-item">Projetos</a></li>
-                <li class="cabecalho-nav-menu-item"><a href="./sobre_mim.php" id="menu-item">Sobre Mim</a></li>
-                <li class="cabecalho-nav-menu-item"><a href="./contato.php" id="menu-item">Contato</a></li>
+                <li class="cabecalho-nav-menu-item"><a href="./Projetos.php" class="menu-item">Projetos</a></li>
+                <li class="cabecalho-nav-menu-item"><a href="./sobre_mim.php" class="menu-item">Sobre Mim</a></li>
+                <li class="cabecalho-nav-menu-item"><a href="./contato.php" class="menu-item">Contato</a></li>
             </ul>
             <button class="cabecalho-nav-btnDarkMode" id="btn-DarkMode">
                 <img src="./src/btnDarkMode.png">
