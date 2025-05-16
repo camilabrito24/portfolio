@@ -5,19 +5,19 @@
     <title>Portfolio | Projetos</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
-<body>
+<body id="corpo-pagina">
 <header class="cabecalho">
     <nav class="cabecalho-nav">
         <p class="cabecalho-nav-paragrafo">
             CAMILA BRITO
         </p>
         <ul class="cabecalho-nav-menu">
-            <li class="cabecalho-nav-menu-item"><a href="./index.php">Home</a></li>
+            <li class="cabecalho-nav-menu-item"><a href="./index.php" class="menu-item">Home</a></li>
             <li class="cabecalho-nav-menu-item"><a href="./Projetos.php" style="color: #6E26B7">Projetos</a></li>
-            <li class="cabecalho-nav-menu-item"><a href="./sobre_mim.php">Sobre Mim</a></li>
-            <li class="cabecalho-nav-menu-item"><a href="./contato.php">Contato</a></li>
+            <li class="cabecalho-nav-menu-item"><a href="./sobre_mim.php" class="menu-item">Sobre Mim</a></li>
+            <li class="cabecalho-nav-menu-item"><a href="./contato.php" class="menu-item">Contato</a></li>
         </ul>
-        <button class="cabecalho-nav-btnDarkMode">
+        <button class="cabecalho-nav-btnDarkMode" id="btn-DarkMode">
             <img src="./src/btnDarkMode.png">
         </button>
     </nav>
@@ -94,5 +94,6 @@
         Feito por Camila Brito
     </p>
 </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>

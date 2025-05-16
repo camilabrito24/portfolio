@@ -182,6 +182,7 @@ body{
 
 .container-projetos-btn-site{
     text-decoration: none;
+    color: #6E26B7;
 }
 
 .container-projetos-btn-site-git{
@@ -190,7 +191,7 @@ body{
 }
 
 .container-projetos-btn-site:hover{
-    color: #6E26B7;
+    color: #352360;
 }
 
 span{

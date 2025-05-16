@@ -25,8 +25,14 @@ function alteraModoEscuro(elemento){
     elemento.btndarkmode.style.backgroundColor = '#1E1C1CFF';
     elemento.btndarkmode.style.borderColor = '#FCFDFF';
     elemento.body.style.backgroundColor = '#1E1C1CFF';
-    elemento.texto.style.color = '#aaa9a9';
-    elemento.destaque.style.color = '#aaa9a9';
+
+    if(elemento.texto){
+        elemento.texto.style.color = '#aaa9a9';
+    }
+
+    if(elemento.destaque){
+        elemento.destaque.style.color = '#aaa9a9';
+    }
 
     elemento.listaMenu.forEach(elemento => {
         elemento.style.color = '#aaa9a9';
@@ -37,8 +43,14 @@ function alteraModoClaro(elemento){
     elemento.btndarkmode.style.backgroundColor = '#FCFDFF';
     elemento.btndarkmode.style.borderColor = '#343131';
     elemento.body.style.backgroundColor = '#FCFDFF';
-    elemento.texto.style.color = '#343131';
-    elemento.destaque.style.color = '#343131';
+
+    if(elemento.texto){
+        elemento.texto.style.color = '#343131';
+    }
+
+    if(elemento.destaque){
+        elemento.destaque.style.color = '#343131';
+    }
 
     elemento.listaMenu.forEach(elemento => {
         elemento.style.color = '#343131';
