@@ -3,6 +3,7 @@ const pagina =  document.querySelector("#corpo-pagina");
 const menuItem = document.querySelectorAll(".menu-item");
 const texto = document.querySelector(".container-texto-paragrafo");
 const destaque = document.querySelector(".container-texto-paragrafo-destaque");
+const btnControle = document.querySelectorAll(".btn_controle");
 var modoEscuro = false;
 btnDarkMode.addEventListener('click', ()=>{
     var elemento = {};
@@ -11,6 +12,7 @@ btnDarkMode.addEventListener('click', ()=>{
     elemento.listaMenu = menuItem;
     elemento.texto = texto;
     elemento.destaque = destaque;
+    elemento.btnControle = btnControle;
 
     if(modoEscuro == false){
         alteraModoEscuro(elemento);
@@ -37,6 +39,20 @@ function alteraModoEscuro(elemento){
     elemento.listaMenu.forEach(elemento => {
         elemento.style.color = '#aaa9a9';
     })
+
+    if(elemento.btnControle){
+        elemento.btnControle.forEach(elemento =>{
+            elemento.style.backgroundColor = '#1E1C1CFF';
+
+            elemento.addEventListener('mouseover', function (){
+                elemento.style.backgroundColor = '#6E26B7';
+            });
+
+            elemento.addEventListener('mouseout', function (){
+                elemento.style.backgroundColor = '#1E1C1CFF';
+            });
+        })
+    }
 }
 
 function alteraModoClaro(elemento){
@@ -55,4 +71,18 @@ function alteraModoClaro(elemento){
     elemento.listaMenu.forEach(elemento => {
         elemento.style.color = '#343131';
     })
+
+    if(elemento.btnControle){
+        elemento.btnControle.forEach(elemento =>{
+            elemento.style.backgroundColor = '#FCFDFF';
+
+            elemento.addEventListener('mouseover', function (){
+                elemento.style.backgroundColor = '#6E26B7';
+            });
+
+            elemento.addEventListener('mouseout', function (){
+                elemento.style.backgroundColor = '#FCFDFF';
+            });
+        })
+    }
 }
