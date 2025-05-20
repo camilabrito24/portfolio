@@ -4,6 +4,8 @@ const menuItem = document.querySelectorAll(".menu-item");
 const texto = document.querySelector(".container-texto-paragrafo");
 const destaque = document.querySelector(".container-texto-paragrafo-destaque");
 const btnControle = document.querySelectorAll(".btn_controle");
+const containerDadosDestaque = document.querySelectorAll(".container-dados-paragrafo-destaque");
+const containerDadosTexto = document.querySelectorAll(".container-dados-paragrafo");
 var modoEscuro = false;
 btnDarkMode.addEventListener('click', ()=>{
     var elemento = {};
@@ -13,6 +15,8 @@ btnDarkMode.addEventListener('click', ()=>{
     elemento.texto = texto;
     elemento.destaque = destaque;
     elemento.btnControle = btnControle;
+    elemento.containerDadosDestaque = containerDadosDestaque;
+    elemento.containerDadosTexto = containerDadosTexto;
 
     if(modoEscuro == false){
         alteraModoEscuro(elemento);
@@ -53,6 +57,18 @@ function alteraModoEscuro(elemento){
             });
         })
     }
+
+    if (elemento.containerDadosDestaque){
+        elemento.containerDadosDestaque.forEach(elemento =>{
+            elemento.style.color = '#aaa9a9';
+        })
+    }
+
+    if (elemento.containerDadosTexto){
+        elemento.containerDadosTexto.forEach(elemento =>{
+            elemento.style.color = '#aaa9a9';
+        })
+    }
 }
 
 function alteraModoClaro(elemento){
@@ -83,6 +99,18 @@ function alteraModoClaro(elemento){
             elemento.addEventListener('mouseout', function (){
                 elemento.style.backgroundColor = '#FCFDFF';
             });
+        })
+    }
+
+    if (elemento.containerDadosDestaque){
+        elemento.containerDadosDestaque.forEach(elemento =>{
+            elemento.style.color = '#343131';
+        })
+    }
+
+    if (elemento.containerDadosTexto){
+        elemento.containerDadosTexto.forEach(elemento =>{
+            elemento.style.color = '#343131';
         })
     }
 }

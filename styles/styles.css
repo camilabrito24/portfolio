@@ -264,6 +264,7 @@ span{
 .container-dados-paragrafo-destaque{
     font-size: 18px;
     font-weight: 600;
+    color: #343131;
 }
 
 .container-dados-paragrafo{
@@ -271,6 +272,7 @@ span{
     font-weight: 500;
     opacity: 70%;
     width: 480px;
+    color: #343131;
 }
 
 .container-experiencia-profissional{
