@@ -6,6 +6,7 @@ const destaque = document.querySelector(".container-texto-paragrafo-destaque");
 const btnControle = document.querySelectorAll(".btn_controle");
 const containerDadosDestaque = document.querySelectorAll(".container-dados-paragrafo-destaque");
 const containerDadosTexto = document.querySelectorAll(".container-dados-paragrafo");
+const inputContato = document.querySelectorAll(".input-contato");
 var modoEscuro = false;
 btnDarkMode.addEventListener('click', ()=>{
     var elemento = {};
@@ -17,6 +18,7 @@ btnDarkMode.addEventListener('click', ()=>{
     elemento.btnControle = btnControle;
     elemento.containerDadosDestaque = containerDadosDestaque;
     elemento.containerDadosTexto = containerDadosTexto;
+    elemento.inputContato = inputContato;
 
     if(modoEscuro == false){
         alteraModoEscuro(elemento);
@@ -69,6 +71,14 @@ function alteraModoEscuro(elemento){
             elemento.style.color = '#aaa9a9';
         })
     }
+
+    if(elemento.inputContato){
+        console.log(elemento.inputContato)
+        elemento.inputContato.forEach(elemento =>{
+            elemento.style.backgroundColor = '#1E1C1CFF';
+            elemento.style.color = '#FCFDFF';
+        })
+    }
 }
 
 function alteraModoClaro(elemento){
@@ -110,6 +120,13 @@ function alteraModoClaro(elemento){
 
     if (elemento.containerDadosTexto){
         elemento.containerDadosTexto.forEach(elemento =>{
+            elemento.style.color = '#343131';
+        })
+    }
+
+    if(elemento.inputContato){
+        elemento.inputContato.forEach(elemento =>{
+            elemento.style.backgroundColor = '#FCFDFF';
             elemento.style.color = '#343131';
         })
     }
