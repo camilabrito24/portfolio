@@ -44,6 +44,14 @@ function alteraModoEscuro(elemento){
 
     elemento.listaMenu.forEach(elemento => {
         elemento.style.color = '#aaa9a9';
+
+        elemento.addEventListener('mouseover', function (){
+            elemento.style.color = '#6E26B7';
+        });
+
+        elemento.addEventListener('mouseout', function (){
+            elemento.style.color = '#aaa9a9';
+        });
     })
 
     if(elemento.btnControle){
@@ -96,6 +104,14 @@ function alteraModoClaro(elemento){
 
     elemento.listaMenu.forEach(elemento => {
         elemento.style.color = '#343131';
+
+        elemento.addEventListener('mouseover', function (){
+            elemento.style.color = '#6E26B7';
+        });
+
+        elemento.addEventListener('mouseout', function (){
+            elemento.style.color = '#343131';
+        });
     })
 
     if(elemento.btnControle){

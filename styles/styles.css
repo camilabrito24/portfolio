@@ -8,6 +8,7 @@
 
 body{
     font-family: "Epilogue", sans-serif;
+    overflow-x: hidden;
 }
 
 .cabecalho-nav{
@@ -225,7 +226,7 @@ span{
     flex-direction: row;
     justify-content: space-around;
     height: 10%;
-    margin: 4.6em 60em;
+    margin: 4.6em 42em;
 }
 
 .container_controle{
