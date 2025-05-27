@@ -95,5 +95,6 @@
     </p>
 </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/projetos.js"></script>
 </body>
 </html>
