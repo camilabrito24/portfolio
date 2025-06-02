@@ -9,7 +9,7 @@ function animaProjeto(elemento){
             caminhoImagem = caminhoImagem[0];
             const novoCaminhoImg = caminhoImagem.replace("http://localhost/Projetos/portfolio/","./").replace(".png",".gif");
             elemento.setAttribute('src', novoCaminhoImg);
-            elemento.style.width = '700px';
+            elemento.style.width = '500px';
         });
 
         elemento.addEventListener('mouseout', function (){
