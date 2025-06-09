@@ -29,12 +29,12 @@
     </section>
     <section class="container-projetos">
         <section class="container-projetos-card">
-            <img src="src/projeto1.png" class="container-projetos-card-img">
+            <img src="src/projeto5.png" class="container-projetos-card-img">
             <div class="container-projetos-btn">
-                <a href="https://numero-secreto-tau-brown.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
+                <a href="https://robotron-black.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
 
                 <button class="container-projetos-card-btn-github">
-                    <a href="https://github.com/camilabrito24/numero-secreto" target="_blank" class="container-projetos-btn-site-git">
+                    <a href="https://github.com/camilabrito24/robotron" target="_blank" class="container-projetos-btn-site-git">
                         <img src="src/github.png">
                         Github
                     </a>
@@ -42,12 +42,12 @@
             </div>
         </section>
         <section class="container-projetos-card">
-            <img src="src/projeto2.png" class="container-projetos-card-img">
+            <img src="src/projeto6.png" class="container-projetos-card-img">
             <div class="container-projetos-btn">
-                <a href="https://mochiladeviagem-gray.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
+                <a href="https://aluraplus-coral-iota.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
 
                 <button class="container-projetos-card-btn-github">
-                    <a href="https://github.com/camilabrito24/mochiladeviagem" target="_blank" class="container-projetos-btn-site-git">
+                    <a href="https://github.com/camilabrito24/aluraplus" target="_blank" class="container-projetos-btn-site-git">
                         <img src="src/github.png">
                         Github
                     </a>
@@ -55,12 +55,12 @@
             </div>
         </section>
         <section class="container-projetos-card">
-            <img src="src/projeto3.png" class="container-projetos-card-img">
+            <img src="src/projeto7.png" class="container-projetos-card-img">
             <div class="container-projetos-btn">
-                <a href="https://doacoes-site.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
+                <a href="https://fokus-rho-snowy.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
 
                 <button class="container-projetos-card-btn-github">
-                    <a href="https://github.com/camilabrito24/doacoes-site" target="_blank" class="container-projetos-btn-site-git">
+                    <a href="https://github.com/camilabrito24/fokus" target="_blank" class="container-projetos-btn-site-git">
                         <img src="src/github.png">
                         Github
                     </a>
@@ -68,12 +68,12 @@
             </div>
         </section>
         <section class="container-projetos-card">
-            <img src="src/projeto4.png" class="container-projetos-card-img">
+            <img src="src/projeto8.png" class="container-projetos-card-img">
             <div class="container-projetos-btn">
-                <a href="https://aluramidi-kohl.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
+                <a href="https://lista-de-compras-eight-zeta.vercel.app/" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
 
                 <button class="container-projetos-card-btn-github">
-                    <a href="https://github.com/camilabrito24/aluramidi" target="_blank" class="container-projetos-btn-site-git">
+                    <a href="https://github.com/camilabrito24/lista-de-compras" target="_blank" class="container-projetos-btn-site-git">
                         <img src="src/github.png">
                         Github
                     </a>

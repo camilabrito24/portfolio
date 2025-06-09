@@ -22,3 +22,14 @@ function animaProjeto(elemento){
         });
     })
 }
+
+const proxPagina = document.getElementById('proxima-pagina');
+const pagAnterior = document.getElementById('pagina_anterior');
+
+proxPagina.addEventListener("click",()=>{
+    window.location.href = "Projetos_page2.php";
+})
+
+pagAnterior.addEventListener("click", ()=>{
+    window.location.href = "Projetos.php";
+})
