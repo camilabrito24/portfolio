@@ -1,6 +1,27 @@
-var projetoImg = document.querySelectorAll(".container-projetos-card-img");
+import {listaProjetos} from "./lista-projetos";
 
-this.animaProjeto(projetoImg);
+const containerProjetos = document.querySelector('.container-projetos');
+const btnPaginaAnterior = document.getElementById('pagina_anterior');
+
+console.dir(listaProjetos[0]);
+
+for (let i=0; i < 4; i++){
+    const containerProjetosCard = document.createElement('section');
+    containerProjetosCard.classList.add('container-projetos-card');
+    containerProjetos.appendChild(containerProjetosCard);
+
+    const containerProjetosCardImg = document.createElement('img');
+    containerProjetosCardImg.src = listaProjetos[i].imagem;
+    containerProjetosCardImg.classList.add('container-projetos-card-img');
+    containerProjetosCard.appendChild(containerProjetosCardImg);
+
+    if(i < 4){
+        btnPaginaAnterior.style.display = 'none';
+    }
+}
+
+var projetoImg = document.querySelectorAll(".container-projetos-card-img");
+animaProjeto(projetoImg);
 function animaProjeto(elemento){
     elemento.forEach(elemento => {
         elemento.addEventListener('mouseover', function (){
@@ -22,14 +43,3 @@ function animaProjeto(elemento){
         });
     })
 }
-
-const proxPagina = document.getElementById('proxima-pagina');
-const pagAnterior = document.getElementById('pagina_anterior');
-
-proxPagina.addEventListener("click",()=>{
-    window.location.href = "Projetos_page2.php";
-})
-
-pagAnterior.addEventListener("click", ()=>{
-    window.location.href = "Projetos.php";
-})
