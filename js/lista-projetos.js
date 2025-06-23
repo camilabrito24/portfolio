@@ -1,4 +1,4 @@
-export const listaProjetos = [
+export const listaDeTodosOsProjetos = [
     {
         id: "1",
         imagem: "./src/projeto1.png",
