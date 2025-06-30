@@ -5,21 +5,19 @@ const btnPaginaAnterior = document.getElementById('pagina_anterior');
 const btnProximaPagina = document.getElementById('proxima-pagina');
 const projetosPorPagina = 4;
 let paginaAtual = 0;
-let itemProjeto = 0;
 
 function exibirProjetos(listaDeProjetos) {
     containerProjetos.innerHTML = '';
-
     listaDeProjetos.forEach(projeto => {
         const projetoSection = document.createElement('section');
         projetoSection.classList.add('container-projetos-card'); // Adiciona uma classe para estilização
         projetoSection.innerHTML = `
-             <img src="${listaDeTodosOsProjetos[itemProjeto].imagem}" class="container-projetos-card-img">
+             <img src="${projeto.imagem}" class="container-projetos-card-img">
              <div class="container-projetos-btn">
-                 <a href="${listaDeTodosOsProjetos[itemProjeto].linkSite}" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
+                 <a href="${projeto.linkSite}" target="_blank" class="container-projetos-btn-site">Visite o site <span>⬈</span></a>
 
                  <button class="container-projetos-card-btn-github">
-                     <a href="${listaDeTodosOsProjetos[itemProjeto].linkGithub}" target="_blank" class="container-projetos-btn-site-git">
+                     <a href="${projeto.linkGithub}" target="_blank" class="container-projetos-btn-site-git">
                          <img src="src/github.png">
                          Github
                      </a>
@@ -27,7 +25,6 @@ function exibirProjetos(listaDeProjetos) {
              </div>
         `;
         containerProjetos.appendChild(projetoSection);
-        itemProjeto++;
     });
 }
 
@@ -41,6 +38,7 @@ function renderizarPagina() {
 
     // Chama a função para exibir esses livros
     exibirProjetos(projetosDaPagina);
+    animaProjeto();
 
     if(paginaAtual === 0){
         btnPaginaAnterior.style.display = 'none';
@@ -52,6 +50,7 @@ function renderizarPagina() {
         btnProximaPagina.style.display = 'none';
     }else{
         btnProximaPagina.style.display = 'block';
+        btnProximaPagina.style.marginLeft = 'auto';
     }
 }
 
@@ -84,27 +83,10 @@ document.addEventListener('DOMContentLoaded', () => {
     renderizarPagina();
 });
 
-console.dir(listaDeTodosOsProjetos[itemProjeto]);
+function animaProjeto(){
+    var projetoImg = document.querySelectorAll(".container-projetos-card-img");
 
-/*for (let i=0; i < 4; i++){
-    const containerProjetosCard = document.createElement('section');
-    containerProjetosCard.classList.add('container-projetos-card');
-    containerProjetos.appendChild(containerProjetosCard);
-
-    const containerProjetosCardImg = document.createElement('img');
-    containerProjetosCardImg.src = listaProjetos[i].imagem;
-    containerProjetosCardImg.classList.add('container-projetos-card-img');
-    containerProjetosCard.appendChild(containerProjetosCardImg);
-
-    if(i < 4){
-        btnPaginaAnterior.style.display = 'none';
-    }
-}*/
-
-var projetoImg = document.querySelectorAll(".container-projetos-card-img");
-animaProjeto(projetoImg);
-function animaProjeto(elemento){
-    elemento.forEach(elemento => {
+    projetoImg.forEach(elemento => {
         elemento.addEventListener('mouseover', function (){
             var caminhoImagem = [];
             caminhoImagem.push(elemento.src);
