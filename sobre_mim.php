@@ -27,13 +27,13 @@
     </header>
     <main class="container_controle">
         <section class="container_btn_controle">
-            <button class="btn_controle">
+            <button class="btn_controle" id="experiencia-profissional">
                 EXPERIÊNCIA PROFISSIONAL
             </button>
-            <button class="btn_controle">
+            <button class="btn_controle" id="formacao-academica">
                 FORMAÇÃO ACADÊMICA
             </button>
-            <button class="btn_controle">
+            <button class="btn_controle" id="habilidades">
                 HABILIDADES
             </button>
         </section>
@@ -79,6 +79,12 @@
                 </ul>
             </section>
         </section>
+        <section class="container-formacao-academica">
+            formação academica
+        </section>
+        <section class="container-habilidades">
+            habilidades
+        </section>
     </main>
     <footer class="rodape">
         <p class="rodape-paragrafo-destaque">
@@ -89,5 +95,6 @@
         </p>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/sobre_mim.js"></script>
 </body>
 </html>
