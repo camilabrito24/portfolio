@@ -333,3 +333,8 @@ span{
 #btn-contato:hover{
     background-color: #341159;
 }
+
+.btn-ativo{
+    background-color: #6E26B7;
+    color: #FCFDFF;
+}

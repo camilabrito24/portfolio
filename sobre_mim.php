@@ -27,7 +27,7 @@
     </header>
     <main class="container_controle">
         <section class="container_btn_controle">
-            <button class="btn_controle" id="experiencia-profissional">
+            <button class="btn_controle btn-ativo" id="experiencia-profissional">
                 EXPERIÊNCIA PROFISSIONAL
             </button>
             <button class="btn_controle" id="formacao-academica">
