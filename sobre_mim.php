@@ -50,6 +50,7 @@
                     <li>Suporte ao cliente através do Whatsapp e telefone.  </li>
                 </ul>
             </section>
+            <section class="img_div"><img src="src/setas.png"></section>
             <section class="container-dados">
                 <h1 class="container-dados-titulo">Estágio em Teste de Software
                     2022 - 2023</h1>
@@ -59,6 +60,7 @@
                     <li>Teste automatizado em sistema PDV através do Testlink.</li>
                 </ul>
             </section>
+            <section class="img_div"><img src="src/setas.png"></section>
             <section class="container-dados">
                 <h1 class="container-dados-titulo">Analista de Desenvolvimento de Software
                     2023 - 2023</h1>
@@ -68,6 +70,7 @@
                     <li>Teste automatizado em sistema Manager e PDV através do Testlink.</li>
                 </ul>
             </section>
+            <section class="img_div"><img src="src/setas.png"></section>
             <section class="container-dados">
                 <h1 class="container-dados-titulo">Programador de Sistema da Informação
                     2023 - Atualmente</h1>

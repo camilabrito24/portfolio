@@ -2,7 +2,11 @@ const btnExperienciaProfissional = document.getElementById('experiencia-profissi
 const btnFormacaoAcademica = document.getElementById('formacao-academica');
 const btnHabilidades = document.getElementById('habilidades');
 const containerExperienciaProfissional = document.querySelector('.container-experiencia-profissional');
+const containerFormacaoAcademica = document.querySelector('.container-formacao-academica');
+const containerHabilidades = document.querySelector('.container-habilidades');
 
+containerFormacaoAcademica.style.display = 'none';
+containerHabilidades.style.display = 'none';
 btnExperienciaProfissional.addEventListener('click', ()=>{
     if(!btnExperienciaProfissional.classList.contains('btn-ativo')){
         btnExperienciaProfissional.classList.add('btn-ativo');
@@ -16,7 +20,9 @@ btnExperienciaProfissional.addEventListener('click', ()=>{
         btnHabilidades.classList.remove('btn-ativo');
     }
 
-    containerExperienciaProfissional.style.display = 'block';
+    containerExperienciaProfissional.style.display = 'flex';
+    containerFormacaoAcademica.style.display = 'none';
+    containerHabilidades.style.display = 'none';
 
 })
 
@@ -34,6 +40,8 @@ btnFormacaoAcademica.addEventListener('click', ()=>{
     }
 
     containerExperienciaProfissional.style.display = 'none';
+    containerFormacaoAcademica.style.display = 'block';
+    containerHabilidades.style.display = 'none';
 })
 
 btnHabilidades.addEventListener('click', ()=>{
@@ -50,5 +58,7 @@ btnHabilidades.addEventListener('click', ()=>{
     }
 
     containerExperienciaProfissional.style.display = 'none';
+    containerFormacaoAcademica.style.display = 'none';
+    containerHabilidades.style.display = 'block';
 
 })
