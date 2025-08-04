@@ -40,7 +40,7 @@ btnFormacaoAcademica.addEventListener('click', ()=>{
     }
 
     containerExperienciaProfissional.style.display = 'none';
-    containerFormacaoAcademica.style.display = 'block';
+    containerFormacaoAcademica.style.display = 'flex';
     containerHabilidades.style.display = 'none';
 })
 
@@ -59,6 +59,6 @@ btnHabilidades.addEventListener('click', ()=>{
 
     containerExperienciaProfissional.style.display = 'none';
     containerFormacaoAcademica.style.display = 'none';
-    containerHabilidades.style.display = 'block';
+    containerHabilidades.style.display = 'flex';
 
 })

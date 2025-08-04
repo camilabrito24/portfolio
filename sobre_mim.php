@@ -83,7 +83,20 @@
             </section>
         </section>
         <section class="container-formacao-academica">
-            formação academica
+            <section class="container-dados-experiencia-profissional">
+                <h1 class="container-dados-titulo">Técnico em Desenvolvimento de Sistemas 2018 -2019</h1>
+                <p class="container-dados-paragrafo-destaque">ETEC UIRAPURU</p>
+            </section>
+            <section class="img_div"><img src="src/setas.png"></section>
+            <section class="container-dados-experiencia-profissional">
+                <h1 class="container-dados-titulo">Tecnólogo em Design Gráfico - 2020 - 2021</h1>
+                <p class="container-dados-paragrafo-destaque">UNIVERSIDADE PAULISTA</p>
+            </section>
+            <section class="img_div"><img src="src/setas.png"></section>
+            <section class="container-dados-experiencia-profissional">
+                <h1 class="container-dados-titulo">Tecnólogo em Análise e Desenvolvimento de Sistemas 2022 - 2024</h1>
+                <p class="container-dados-paragrafo-destaque">UNICID OSASCO</p>
+            </section>
         </section>
         <section class="container-habilidades">
             habilidades
