@@ -260,7 +260,7 @@ span{
     flex-direction: column;
     margin: 5em;
     gap: 1em;
-    width: 270px;
+    width: 30%;
 }
 
 .container-dados-titulo{
@@ -286,20 +286,22 @@ span{
 
 .container-experiencia-profissional{
     display: flex;
+    justify-content: center;
     height: 61vh;
 }
 
 .container-formacao-academica{
     display: flex;
+    justify-content: center;
     height: 61vh;
 }
 
-.container-dados-experiencia-profissional{
+.container-dados-formacao_academica{
     display: flex;
     flex-direction: column;
     margin: 5em;
     gap: 1em;
-    width: 480px;
+    width: 40%;
 }
 
 .container-contato{

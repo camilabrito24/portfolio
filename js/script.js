@@ -56,16 +56,27 @@ function alteraModoEscuro(elemento){
     })
 
     if(elemento.btnControle){
+
         elemento.btnControle.forEach(elemento =>{
-            elemento.style.backgroundColor = '#1E1C1CFF';
 
-            elemento.addEventListener('mouseover', function (){
+            if (elemento.classList.contains("btn-ativo")){
                 elemento.style.backgroundColor = '#6E26B7';
-            });
+                elemento.style.color = '#FCFDFF';
 
-            elemento.addEventListener('mouseout', function (){
+            }else{
                 elemento.style.backgroundColor = '#1E1C1CFF';
-            });
+                elemento.style.color = '#6E26B7';
+
+                elemento.addEventListener('mouseover', function (){
+                    elemento.style.backgroundColor = '#6E26B7';
+                    elemento.style.color = '#FCFDFF';
+                });
+
+                elemento.addEventListener('mouseout', function (){
+                    elemento.style.backgroundColor = '#1E1C1CFF';
+                    elemento.style.color = '#6E26B7';
+                });
+            }
         })
     }
 
@@ -117,7 +128,16 @@ function alteraModoClaro(elemento){
 
     if(elemento.btnControle){
         elemento.btnControle.forEach(elemento =>{
-            elemento.style.backgroundColor = '#FCFDFF';
+
+            if (elemento.btnControle.classList.contains("btn-ativo")){
+                elemento.style.backgroundColor = '#6E26B7';
+                elemento.style.color = '#aaa9a9';
+
+            }else{
+                elemento.style.backgroundColor = '#FCFDFF';
+                elemento.style.color = '#6E26B7';
+
+            }
 
             elemento.addEventListener('mouseover', function (){
                 elemento.style.backgroundColor = '#6E26B7';
