@@ -30,6 +30,16 @@ btnDarkMode.addEventListener('click', ()=>{
     }
 })
 
+btnControle.forEach(btn => {
+    btn.addEventListener('click', ()=>{
+        if(modoEscuro == true){
+            alteraModoEscuro(btn);
+        }else{
+            alteraModoClaro(btn);
+        }
+    })
+})
+
 function alteraModoEscuro(elemento){
     elemento.btndarkmode.style.backgroundColor = '#1E1C1CFF';
     elemento.btndarkmode.style.borderColor = '#FCFDFF';
@@ -128,8 +138,8 @@ function alteraModoClaro(elemento){
 
     if(elemento.btnControle){
         elemento.btnControle.forEach(elemento =>{
-
-            if (elemento.btnControle.classList.contains("btn-ativo")){
+            console.log(elemento)
+            if (elemento.classList.contains("btn-ativo")){
                 elemento.style.backgroundColor = '#6E26B7';
                 elemento.style.color = '#aaa9a9';
 

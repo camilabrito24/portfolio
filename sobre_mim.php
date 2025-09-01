@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio | Sobre Mim</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body id="corpo-pagina">
@@ -99,6 +100,12 @@
             </section>
         </section>
         <section class="container-habilidades">
+            <div class="w3-container">
+                <p>PHP</p>
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-purple w3-round-xlarge" style="width:50%">50%</div>
+                </div>
+            </div>
             habilidades
         </section>
     </main>

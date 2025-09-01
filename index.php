@@ -31,7 +31,7 @@
             <p class="container-texto-paragrafo-destaque">Designer e Desenvolvedora Frontend / Backend.</p>
             <p class="container-texto-paragrafo">Espero que através deste portfólio possa vir a me conhecer e conhecer o meu trabalho.
                 Caso queira entrar em contato comigo para maiores informações basta clicar no botão logo abaixo:</p>
-            <a href="." class="container-texto-btn">
+            <a href="./contato.php" class="container-texto-btn">
                 CONTATE-ME
             </a>
         </section>
