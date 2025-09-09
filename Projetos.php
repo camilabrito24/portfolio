@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Portfolio | Projetos</title>
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/light-theme.css" id="light-theme">
+    <link rel="stylesheet" type="text/css" href="styles/dark-theme.css" disabled id="dark-theme">
 </head>
 <body id="corpo-pagina">
 <header class="cabecalho">

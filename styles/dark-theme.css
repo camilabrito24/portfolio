@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Epilogue", sans-serif;
+    overflow-x: hidden;
+    background-color: #1e1c1c;
+}
+
+.cabecalho-nav{
+    margin: 3em;
+    display: flex;
+    flex-direction: row;
+    gap: 550px;
+}
+
+.cabecalho-nav-paragrafo{
+    font-weight: 900;
+    color: #6E26B7;
+    font-size: 25px;
+}
+
+.cabecalho-nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.cabecalho-nav-menu-item{
+    list-style: none;
+    font-weight: 700;
+}
+
+.cabecalho-nav-menu-item a{
+    text-decoration: none;
+    color: #aaa9a9;
+}
+
+.cabecalho-nav-menu-item a:hover{
+    color: #6E26B7;
+}
+
+.cabecalho-nav-btnDarkMode{
+    width: 35px;
+    height: 31px;
+    background-color: #1e1c1c;
+    border: solid 1px #aaa9a9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cabecalho-nav-btnDarkMode:hover{
+    background-color: #aaa9a9;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 5em 20em;
+    height: 66vh;
+}
+
+.container-texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5em;
+    color: #aaa9a9;
+    gap: 1em;
+}
+
+.container-texto-titulo{
+    color: #6E26B7;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container-texto-paragrafo-destaque{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-texto-paragrafo{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 70%;
+    width: 480px;
+}
+
+.container-texto-btn{
+    margin-top: 2em;
+    width: 163px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6E26B7;
+    color: #FCFDFF;
+    cursor: pointer;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.container-texto-btn:hover{
+    background-color: #341159;
+}
+
+.container-imagem{
+    width: 50%;
+}
+
+.container-projetos{
+    margin: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-projetos-card{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-projetos-card-img{
+    width: 350px;
+}
+
+.container-projetos-card-btn-github{
+    background-color: #6E26B7;
+    padding: 0.5em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FCFDFF;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    width: 100px;
+    align-items: center;
+}
+
+.container-projetos-card-btn-github:hover{
+    background-color: #341159;
+}
+
+.container-projetos-card-btn-github img{
+    width: 20px;
+    padding-right: 0.5em;
+}
+
+.container-projetos-principal{
+    margin: 5em;
+    height: 66vh;
+}
+
+.rodape{
+    background-color: #6E26B7;
+    height: 8vh;
+    text-align: center;
+    color: #FCFDFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.rodape-paragrafo-destaque{
+    padding-top: 1em;
+}
+
+.rodape-paragrafo{
+    padding-top: 1em;
+    opacity: 50%;
+}
+
+.container-projetos-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 1.5em 0 1.5em;
+    font-weight: 700;
+}
+
+.container-projetos-btn-site{
+    text-decoration: none;
+    color: #6E26B7;
+}
+
+.container-projetos-btn-site-git{
+    text-decoration: none;
+    color: #FCFDFF;
+}
+
+.container-projetos-btn-site:hover{
+    color: #352360;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container_btn_proxima_pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5em 15em;
+}
+
+.btn_proxima_pagina{
+    background-color: #6E26B7;
+    color: #FCFDFF;
+    padding: 1em;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.img_div img{
+    width: 50px;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.btn_proxima_pagina:hover{
+    background-color: #341159;
+}
+
+.container_btn_controle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10%;
+    margin: 4.6em 42em;
+}
+
+.container_controle{
+}
+
+.btn_controle{
+    background-color: #1e1c1c;
+    color: #6E26B7;
+    padding: 1em;
+    border-radius: 8px;
+    border: 1px solid #6E26B7;
+    cursor: pointer;
+    font-weight: 700;
+    width: 159px;
+    height: 59px;
+}
+
+.btn_controle:hover{
+    background-color: #6E26B7;
+    color: #FCFDFF;
+}
+
+.container-dados{
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+    gap: 1em;
+    width: 30%;
+}
+
+.container-dados-titulo{
+    color: #6E26B7;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container-dados-paragrafo-destaque{
+    font-size: 18px;
+    font-weight: 600;
+    color: #aaa9a9;
+}
+
+.container-dados-paragrafo{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 70%;
+    width: 300px;
+    color: #aaa9a9;
+}
+
+.container-experiencia-profissional{
+    display: flex;
+    justify-content: center;
+    height: 61vh;
+}
+
+.container-formacao-academica{
+    display: flex;
+    justify-content: center;
+    height: 61vh;
+}
+
+.container-dados-formacao_academica{
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+    gap: 1em;
+    width: 40%;
+}
+
+.container-contato{
+    display: flex;
+    flex-direction: column;
+    margin: 5em 20em;
+    height: 66vh;
+}
+
+.container-formulario{
+    margin: 1em 5em;
+}
+
+.container-formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container-formulario label{
+    color: #6E26B7;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-formulario input{
+    border: 1px solid #6E26B7;
+    padding: 0.5em;
+    border-radius: 8px;
+    width: 60%;
+    color: #aaa9a9;
+}
+
+.container-formulario textarea{
+    border: 1px solid #6E26B7;
+    padding: 0.5em;
+    border-radius: 8px;
+    width: 60%;
+    height: 100px;
+    color: #aaa9a9;
+}
+
+#btn-contato{
+    background-color: #6E26B7;
+    color: #FCFDFF;
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 61%;
+    border-radius: 8px;
+}
+
+#btn-contato:hover{
+    background-color: #341159;
+}
+
+.btn-ativo{
+    background-color: #6E26B7;
+    color: #FCFDFF;
+}
+
+.container-formulario input{
+    background-color: #1e1c1c;
+}
+
+.container-formulario textarea{
+    background-color: #1e1c1c;
+}
