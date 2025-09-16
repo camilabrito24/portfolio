@@ -101,13 +101,48 @@
             </section>
         </section>
         <section class="container-habilidades">
-            <div class="w3-container">
-                <p>PHP</p>
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-purple w3-round-xlarge" style="width:50%">50%</div>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">PHP</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="php"></div>
                 </div>
-            </div>
-            habilidades
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">BANCO DE DADOS</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="banco"></div>
+                </div>
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">HTML/CSS</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="frontend"></div>
+                </div>
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">JAVASCRIPT</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="javascript"></div>
+                </div>
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">JAVA</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="java"></div>
+                </div>
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">GIT/GITHUB</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="git"></div>
+                </div>
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">INGLÊS</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="ingles"></div>
+                </div>
+            </section>
         </section>
     </main>
     <footer class="rodape">

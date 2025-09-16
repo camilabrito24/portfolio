@@ -361,3 +361,60 @@ span{
     background-color: #6E26B7;
     color: #FCFDFF;
 }
+
+.container-barra{
+    width: 100%;
+    height: 15px;
+    background-color: #aaa9a9;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.barra-progresso{
+    height: 100%;
+    background-color: #6E26B7;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-progresso#php{
+    width: 60%;
+}
+
+.barra-progresso#banco{
+    width: 80%;
+}
+
+.barra-progresso#frontend{
+    width: 85%;
+}
+
+.barra-progresso#javascript{
+    width: 40%;
+}
+
+.barra-progresso#java{
+    width: 10%;
+}
+
+.barra-progresso#git{
+    width: 60%;
+}
+
+.barra-progresso#ingles{
+    width: 20%;
+}
+
+.container-dados-habilidades{
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+    gap: 1em;
+    width: 1500px;
+    height: 43.9vh;
+}
+
