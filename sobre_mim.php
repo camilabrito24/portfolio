@@ -108,9 +108,27 @@
                 </div>
             </section>
             <section class="container-dados-habilidades">
-                <p class="container-dados-paragrafo-destaque">BANCO DE DADOS</p>
+                <p class="container-dados-paragrafo-destaque">SQL SERVER</p>
                 <div class="container-barra">
-                    <div class="barra-progresso" id="banco"></div>
+                    <div class="barra-progresso" id="sqlserver"></div>
+                </div>
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">ORACLE</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="oracle"></div>
+                </div>
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">POSTGRESQL</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="postgresql"></div>
+                </div>
+            </section>
+            <section class="container-dados-habilidades">
+                <p class="container-dados-paragrafo-destaque">MYSQL</p>
+                <div class="container-barra">
+                    <div class="barra-progresso" id="mysql"></div>
                 </div>
             </section>
             <section class="container-dados-habilidades">
