@@ -33,17 +33,18 @@
         <p class="container-texto-paragrafo-destaque">Se ficou interessado no meu trabalho ou quer saber mais informações, entre em contato comigo através do formulário abaixo:</p>
     </section>
     <section class="container-formulario">
-        <form>
+        <form id="form-contato">
             <label>Nome Completo</label>
-            <input type="text" class="input-contato">
+            <input type="text" class="input-contato" id="nome">
 
             <label>Email</label>
-            <input type="email" class="input-contato">
+            <input type="email" class="input-contato" id="email">
 
             <label>Mensagem</label>
-            <textarea class="input-contato"></textarea>
+            <textarea class="input-contato" id="mensagem"></textarea>
 
             <input type="button" value="Enviar Formulário" id="btn-contato">
+            <p id="statusMessage"></p>
         </form>
     </section>
 </main>
