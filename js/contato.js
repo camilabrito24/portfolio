@@ -20,7 +20,7 @@ document.getElementById('btn-contato').addEventListener('click', function() {
     statusMessage.textContent = 'Enviando...';
     statusMessage.style.color = 'blue';
 
-    fetch('../envia-email.php', {
+    fetch('Projetos/portfolio/envia-email.php', {
         method: 'POST',
         body: formData
     })

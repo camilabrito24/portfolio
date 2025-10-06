@@ -57,5 +57,6 @@
     </p>
 </footer>
 <script src="./js/script.js"></script>
+<script src="./js/contato.js"></script>
 </body>
 </html>
