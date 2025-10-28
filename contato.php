@@ -33,18 +33,17 @@
         <p class="container-texto-paragrafo-destaque">Se ficou interessado no meu trabalho ou quer saber mais informações, entre em contato comigo através do formulário abaixo:</p>
     </section>
     <section class="container-formulario">
-        <form id="form-contato">
+        <form id="form-contato" action="./envia-email.php" method="POST">
             <label>Nome Completo</label>
-            <input type="text" class="input-contato" id="nome">
+            <input type="text" class="input-contato" id="nome" name="nome">
 
             <label>Email</label>
-            <input type="email" class="input-contato" id="email">
+            <input type="email" class="input-contato" id="email" name="email">
 
             <label>Mensagem</label>
-            <textarea class="input-contato" id="mensagem"></textarea>
+            <textarea class="input-contato" id="mensagem" name="mensagem"></textarea>
 
-            <input type="button" value="Enviar Formulário" id="btn-contato">
-            <p id="statusMessage"></p>
+            <button id="btn-contato">Enviar Formulário</button>
         </form>
     </section>
 </main>
@@ -57,6 +56,5 @@
     </p>
 </footer>
 <script src="./js/script.js"></script>
-<script src="./js/contato.js"></script>
 </body>
 </html>
